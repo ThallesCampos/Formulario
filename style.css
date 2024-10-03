@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background-color: black;
+    background-image: url(https://cdn.pixabay.com/photo/2022/07/14/05/56/jellyfish-7320516_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: aliceblue;
+}
+
+form{
+    background-color: rgba(240, 248, 255, 0.425);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px #b700ff;
+}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+input[type="tel"],
+input[type="date"],
+input[type="color"],
+select,
+textarea{
+    padding: 8px;
+    margin-bottom:12px;
+    border: 1px solid #b700ff;
+    box-sizing: border-box;
+    width: calc(100% - 25px);
+}
+
+button{
+    width: 50%;
+    padding: 10px;
+    transform: translate(-50%);
+    margin-left: 50%;
+    color: white;
+    background-color: #b700ff;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover,
+button:focus {
+    background: red;
+}
